@@ -720,12 +720,12 @@ devLabel.TextSize = 13
 devLabel.TextXAlignment = Enum.TextXAlignment.Left
 devLabel.Parent = creditsPage
 local ytBtn = createButton(creditsPage, "COPY YOUTUBE CHANNEL", function()
-setclipboard("youtube.com")
+setclipboard("https://www.youtube.com/@Soy_Haru123")
 creditsPage:FindFirstChild("COPY YOUTUBE CHANNEL").Frame.TextButton.Text = "COPIED YOUTUBE LINK!"
 task.delay(2, function() pcall(function() creditsPage:FindFirstChild("COPY YOUTUBE CHANNEL").Frame.TextButton.Text = "COPY YOUTUBE CHANNEL" end) end)
 end)
 local dcBtn = createButton(creditsPage, "COPY FRIEND'S DISCORD SERVER", function()
-setclipboard("discord.gg")
+setclipboard("https://discord.gg/UxFzRkSSPe")
 creditsPage:FindFirstChild("COPY FRIEND'S DISCORD SERVER").Frame.TextButton.Text = "COPIED DISCORD LINK!"
 task.delay(2, function() pcall(function() creditsPage:FindFirstChild("COPY FRIEND'S DISCORD SERVER").Frame.TextButton.Text = "COPY FRIEND'S DISCORD SERVER" end) end)
 end)
